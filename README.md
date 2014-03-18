@@ -1,7 +1,7 @@
 Sayacoin integration/staging tree
 ================================
 
-http://www.bitcoin.org
+http://umiyuki.github.io/sayacoin
 
 Copyright (c) 2009-2013 Bitcoin Developers (c) 2014 Umiyuki Copyright (c) 2014 Sayacoin Developers
 
@@ -20,7 +20,7 @@ The rest is the same as Bitcoin.
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Bitcoin client software, see http://www.bitcoin.org.
+the Bitcoin client software, see http://umiyuki.github.io/sayacoin.
 
 License
 -------
