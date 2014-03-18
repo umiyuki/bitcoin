@@ -33,7 +33,7 @@ unsigned int nTransactionsUpdated = 0;
 map<uint256, CBlockIndex*> mapBlockIndex;
 //uint256 hashGenesisBlock("0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f");
 //uint256 hashGenesisBlock("0x3d2ca626bd927be89508a72e016a0d1e5b5c350cf5e5aedee282de70604dfd84");
-uint256 hashGenesisBlock("0x00000000bd3ffae185c4f237258079dec812967b7cc258e0e75b5941f97011a6");
+uint256 hashGenesisBlock("0x000000002bf3f625d92fe9bf001511f89cbf9eb5313df685692edf0d24a460bf");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 32);
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -1083,8 +1083,10 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 14 * 24 * 60 * 60; // two weeks
-static const int64 nTargetSpacing = 10 * 60;
+//static const int64 nTargetTimespan = 14 * 24 * 60 * 60; // two weeks
+static const int64 nTargetTimespan = 1 * 60 * 60; // one hour
+//static const int64 nTargetSpacing = 10 * 60;
+static const int64 nTargetSpacing = 5 * 60;
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -2774,7 +2776,7 @@ bool InitBlockIndex() {
         //block.nTime    = 1354979431;
 		block.nTime    = 1395045863;
         block.nBits    = 0x1d00ffff;
-        block.nNonce   = 2193756709;
+        block.nNonce   = 1551159110;
 
         if (fTestNet)
         {
