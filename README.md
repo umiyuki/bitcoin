@@ -17,7 +17,7 @@ Sayacoin is a clone version of Bitcoin using SHA-256 as a proof-of-work algorith
 The rest is the same as Bitcoin.
 
  - 50 coins per block
- - 2016 blocks to retarget difficulty
+ - 12 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
 the Bitcoin client software, see http://umiyuki.github.io/sayacoin.
