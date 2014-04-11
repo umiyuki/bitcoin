@@ -61,7 +61,7 @@ Difficulty再設定間隔　12ブロック
 <p>・ Windows版(2014/03/20のバージョン)
 　　</p>
 
-<p>　　<a href="https://github.com/umiyuki/sayacoin/releases/download/Saya0.8.6.3/sayacoin-qt0_8_6_3.exe">https://github.com/umiyuki/sayacoin/releases/download/Saya0.8.6.3/sayacoin-qt0_8_6_3.exe</a></p>
+<p>　　<a href="https://github.com/umiyuki/sayacoin/releases/download/Saya0.8.6.4/sayacoin-qt0_8_6_4.exe">https://github.com/umiyuki/sayacoin/releases/download/Saya0.8.6.4/sayacoin-qt0_8_6_4.exe</a></p>
 
 <p>・ Linux版</p>
 
@@ -73,6 +73,12 @@ Difficulty再設定間隔　12ブロック
 
 <h2>
 <a name="%E6%9B%B4%E6%96%B0%E5%B1%A5%E6%AD%B4" class="anchor" href="#%E6%9B%B4%E6%96%B0%E5%B1%A5%E6%AD%B4"><span class="octicon octicon-link"></span></a>更新履歴</h2>
+
+<p>・ 2014/04/12</p>
+
+<p>ver0.8.6.4公開</p>
+
+<p>　→OpenSSLの脆弱性の問題に対処しました。配布しているウォレットのバイナリに使っているOpenSSLのバージョンを1.0.1gにしました。</p>
 
 <p>・ 2014/03/20</p>
 
@@ -155,7 +161,7 @@ setgenerate true 1でプロセス数を1に制限します。(2にすると2プ�
 <pre><code>rpcuser=username(任意)
 rpcpassword=password(任意)
 server=1
-addnode=183.177.196.139
+addnode=182.163.86.26
 addnode=36.55.238.28
 </code></pre>
 
@@ -165,7 +171,7 @@ addnode=36.55.238.28
 
 <p>まだノード数が少ないので初期ノードにとりあえず開発者のアドレスの追加を推奨（繋がらない場合もあります）。</p>
 
-<pre><code>addnode=183.177.196.139
+<pre><code>addnode=182.163.86.26
 </code></pre>
 
 <p>ohacさんが作ってくださったSayacoin対応のWebウォレットのIPアドレス（36.55.238.28）もaddnodeすると繋がりやすくなるそうです。</p>
@@ -176,8 +182,17 @@ addnode=36.55.238.28
 <h2>
 <a name="sayacoin%E5%AF%BE%E5%BF%9C%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9" class="anchor" href="#sayacoin%E5%AF%BE%E5%BF%9C%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9"><span class="octicon octicon-link"></span></a>Sayacoin対応サービス</h2>
 
-<p>・ohacさんが仮想通貨WebウォレットにSayacoinを対応してくださいました。
-  <a href="http://www.sighash.info/">http://www.sighash.info/</a></p>
+<p>・ohacさんが仮想通貨WebウォレットにSayacoinを対応してくださいました。</p>
+
+<p><a href="http://www.sighash.info/">http://www.sighash.info/</a></p>
+
+<p>・monagraphprojectさんがSayacoinに対応してくださってます。こちらからウォレットを起動しなくてもSayacoinのdifficultyなどの情報を確認できます。</p>
+
+<p><a href="http://monagraph.com/sayacoin.html">http://monagraph.com/sayacoin.html</a></p>
+
+<p>・ you21979さんがCentOSでsayacoindを自動ビルドするためのansible用ymlファイルを公開してくださってます。</p>
+
+<p><a href="https://gist.github.com/you21979/8481694">https://gist.github.com/you21979/8481694</a></p>
 
 <h2>
 <a name="%E3%83%97%E3%83%AC%E3%83%9E%E3%82%A4%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" class="anchor" href="#%E3%83%97%E3%83%AC%E3%83%9E%E3%82%A4%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"><span class="octicon octicon-link"></span></a>プレマインについて</h2>
